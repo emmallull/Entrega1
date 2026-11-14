@@ -45,7 +45,7 @@ for venta in ventas:
 
 print("Ventas por categoría:")
 for categoria, cantidad in ventas_por_categoria.items():
-    print(f" - {categoria}: {cantidad}")
+    print(f" - {categoria}: {cantidad} unidades vendidas")
 
 print("Facturación por categoría:")
 for categoria, facturacion in facturacion_por_categoria.items():
